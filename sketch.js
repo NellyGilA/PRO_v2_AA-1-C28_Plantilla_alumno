@@ -198,6 +198,7 @@ function showBoats() {
 
 function keyReleased() {
   if (keyCode === DOWN_ARROW && !isGameOver) {
+    //
     balls[balls.length - 1].shoot();
   }
 }
